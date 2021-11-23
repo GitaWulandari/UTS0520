@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Artikel Website</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+  </head>
+<body> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: skyblue;">
+
+    <h2><a class="navbar-brand" href="#">Update Today</a></h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto my-2 my-lg-0">
+        <li class="nav-item active" >
+          <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" data-toggle="modal" data-target="#AboutUs">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" data-toggle="modal" data-target="#Contact">Contact</a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link btn btn-blue" href="#" tabindex="-1" data-toggle="modal" data-target="#signup">SignUp</a>
+        </li>
+        <li class="nav-item mr-2">
+          <a class="nav-link btn btn-blue" href="#" tabindex="-1" data-toggle="modal" data-target="#signin">SignIn</a>
+        </li>
+      </ul>
+    </div>
+  
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid" style="background-color: skyblue;">
+    <div class="container">
+      <h1 class="display-4 text-center text-dark">Pencarian Artikel</h1>
+      <p class="lead text-center text-dark">Kamu bisa mencari artikel apapun yang kamu mau.</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Cari Artikel" aria-label="Recipient's username">
+        <div class="input-group-append">
+          <button class="btn btn-primary" id="search">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+      <h1 class="display-5 text-center mb-5">Categories</h1>
+      <div class="card-deck mb-5">
+        <div class="card">
+          <img class="card-img-top img-thumbnail" src="Gambar2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Codeigniter</h5>
+            <p class="card-text">A web browser takes you anywhere on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web.</p>
+            <a href="#" class="btn btn-primary">Readmore</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-thumbnail" src="Gambar2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Laravel</h5>
+              <p class="card-text">A web browser takes you anywhere on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web.</p>
+              <a href="#" class="btn btn-primary">Readmore</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-thumbnail" src="Gambar2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Express js</h5>
+              <p class="card-text">A web browser takes you anywhere on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web.</p>
+              <a href="#" class="btn btn-primary">Readmore</a>
+            </div>
+        </div> 
+      </div>    
+            <div class="card-deck mb-5">
+        <div class="card">
+          <img class="card-img-top img-thumbnail" src="Gambar2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Codeigniter</h5>
+            <p class="card-text">A web browser takes you anywhere on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web.</p>
+            <a href="#" class="btn btn-primary">Readmore</a>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-thumbnail" src="Gambar2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Laravel</h5>
+              <p class="card-text">A web browser takes you anywhere on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web.</p>
+              <a href="#" class="btn btn-primary">Readmore</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-thumbnail" src="Gambar2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Express js</h5>
+              <p class="card-text">A web browser takes you anywhere on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web.</p>
+              <a href="#" class="btn btn-primary">Readmore</a>
+            </div>
+        </div> 
+      </div>  
+    </div> 
+
+    <div class="container-fluid">
+      <div class="row p-5 text-dark" style="background-color : skyblue;">
+        <div class="col-md-12">
+            <h1 class="display-5 text-center mb-5">Article</h1>
+        </div>
+        <div class="col-md-4">
+          <h2>PPKM Level 3 Saat Libur Nataru | Interior Xpander Facelift | Alasan Polisi Sita SIM</h2>
+          <p>artikel.com | Jelang libur Natal dan Tahun Baru (Nataru), banyak yang takut akan adanya gelombang ketiga Covid-19. Untuk mencegahnya, pemerintah kabarnya akan memberlakukan PPKM Level 3. Selain itu, banyak juga orang yang penasaran dengan produk terbaru Mitsubishi, yakni Xpander facelift. Salah satu bagian yang paling bikin penasaran adalah kabin alias interiornya.Klik untuk baca</p> 
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Taat Bayar Pajak, Kendaraan Akan Ditempel Stiker Hologram | Rossi Bocorkan 2 Masalah Utama Motor Yamaha M1</h2>
+          <p>artikel.com | Inovasi teknologi terus dilakukan oleh Korlantas Polri, hal ini sejalan dengan meningkatnya tren digitaliasi pada semua sektor kehidupan. Bersama Jasa Raharja dan Ditjen Bina Keuangan Daerah Kementerian Dalam Negeri, Korlantas Polri melakukan inovasi teknologi dengan meluncurkan digitalisasi pajak kendaraan (road tax). klik untuk baca</p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Bakpia Jogja Favorit Orang Indonesia, Bakpia Pathok sampai Kukus</h2>
+          <p>artikel.com  | Bakpia merupakan salah satu oleh-oleh terkenal dari Yogyakarta. Kue ini sudah ada sejak puluhan tahun lalu.  Ada berbagai macam bakpia yang dijual di pasaran, dari yang tradisional hingga kekinian. Bahkan varian rasanya pun beragam, mulai dari kacang hijau hingga green tea. Beberapa waktu terakhir, juga ada bakpia kukus yang tak kalah populernya. Bakpia jenis baru ini pun lantas menjadi salah satu oleh-oleh yang disukai wisatawan. klik untuk baca</p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Purnomo Prawiro Beli Saham BIRD Rp 6,07 Miliar</h2>
+            <p>artikel.com  | Pemegang saham PT Blue Bird Tbk, Purnomo Prawiro kembali menambah kepemilikan saham BIRD pada pertengahan November 2021. Purnowo Prawiro membeli 4.055.200 saham BIRD secara bertahap pada 15 November 2021-18 November 2021. Total pembelian saham Blue BirdRp 6,07 miliar. Demikian mengutip keterbukaan informasi ke Bursa Efek Indonesia (BEI), Minggu, 21 November 2021. klik untuk baca</p> 
+            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Jokowi Sindir Presiden AS Joe Biden soal Komitmen Investasi</h2>
+            <p>artikel.com  | Presiden Joko Widodo (Jokowi) menuturkan di sela-sela kunjungan kerja luar negeri beberap waktu lalu sempat berbicang dengan PM Inggis Boris Johnson, dan Presiden Amerika Serikat (AS) Joe Biden. Dalam pertemuan tersebut Jokowi mengutarakan masih adanya kesenjangan dari sisi pembiayaan antara energi fosil dan energi hijau. klik untuk baca
+                 </p>
+            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Singapura Disurvei Jadi Negara Asia Tenggara Pertama yang Siap Automasi Transportasi</h2>
+            <p>artikel.com  | Sebuah survei menunjukkan bahwa Singapura siap menjadi negara di Asia Tenggara yang pertama melakukan automasi transportasi. Automasi transportasi atau transportasi yang beroperasi nirawak secara otomatis telah menjadi lebih populer, dengan kendaraan self-driving semakin dekat ke penggunaan sehari-hari. klik untuk baca</p>
+            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container-fluid">
+      <div class="row p-5 text-dark" style="background-color: skyblue;">
+        <div class="container-fluid">
+            <h1 class="display-5 text-center mb-5">About Us</h1>
+        </div>
+        <div class="col-md-4">
+          <img src="Gambar.jpg" alt="gitawulandrri" height="100" width="100">
+               <h5>Gita Wulandari</h5>
+               <p class="title">CEO & Founder</p>
+               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+               <p>gitawulandrri@gmail.com</p>
+               <p><button type="button" class="btn btn-primary">Contant</button></p>
+        </div>
+        <div class="col-md-4">
+          <img src="Gambar.jpg" alt="gitawulandrri" height="100" width="100">
+               <h5>Gita Wulandari</h5>
+               <p class="title">Founder</p>
+               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+               <p>gitawulandrri@gmail.com</p>
+               <p><button type="button" class="btn btn-primary">Contant</button></p>
+        </div>
+        <div class="col-md-4">
+          <img src="Gambar.jpg" alt="gitawulandrri" height="100" width="100">
+              <h5>Gita Wulandari</h5>
+              <p class="title">Art Director</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>gitawulandrri@gmail.com</p>
+              <p><button type="button" class="btn btn-primary">Contant</button></p>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <div class="footer">
+      <div class="col-md-12 p-4 text-dark text-center" style="background-color: skyblue;">
+        <span class="copyright">Copyright &copy; <a href="#" class="text-dark" style="color: darkgray;">gitawulandari@students.amikom.ac.id 2021</a> </span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="AboutUs" tabindex="-1" role="dialog" aria-labelledby="AboutUs" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="AboutUs123">About Us</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img src="Gambar.jpg" alt="gitawulandrri" height="100" width="100">
+               <h5>Gita Wulandari</h5>
+               <p class="title">CEO & Founder</p>
+               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+               <p>gitawulandrri@gmail.com</p>
+               <p><button type="button" class="btn btn-primary">Contant</button></p>
+        </div>
+        <div class="modal-body">
+            <img src="Gambar.jpg" alt="gitawulandrri" height="100" width="100">
+               <h5>Gita Wulandari</h5>
+               <p class="title">CEO & Founder</p>
+               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+               <p>gitawulandrri@gmail.com</p>
+               <p><button type="button" class="btn btn-primary">Contant</button></p>
+        </div>
+        <div class="modal-body">
+            <img src="Gambar.jpg" alt="gitawulandrri" height="100" width="100">
+               <h5>Gita Wulandari</h5>
+               <p class="title">CEO & Founder</p>
+               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+               <p>gitawulandrri@gmail.com</p>
+               <p><button type="button" class="btn btn-primary">Contant</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="Contact" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="Contant123">Contact Us</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="text" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+
+            <div class="form-group">
+               <label for="message">Message</label>
+               <textarea class="form-control" id="message" rows="3">Tulis Disini</textarea>
+            </div>
+            <button class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup123" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="signup123">SignUp</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="InputEmail1">Email address</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="InputEmail1">Username</label>
+              <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+              <label for="Password">Password</label>
+              <input type="password" class="form-control" id="Password" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="Check1">
+              <label class="form-check-label" for="Check1">Check me out</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Daftar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="signin123" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="signin123">SignIn</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="Email">Email address</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="email2" placeholder="Enter email">
+              <small id="email2" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="InputPassword1">Password</label>
+              <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+</html>
